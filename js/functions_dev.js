@@ -27,6 +27,10 @@ $(function () {
     }, Garden.options.growSpeed);
 });
 
+$(function(){
+    $("#navbar").load("nav.html");
+});
+
 $(window).resize(function() {
     var newWidth = $(window).width();
     var newHeight = $(window).height();
